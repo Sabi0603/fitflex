@@ -39,6 +39,15 @@ It provides an **easy-to-use interface** for fitness enthusiasts and uses **Rapi
  - npm install
 
 
-## Set up environment variables
- - REACT_APP_RAPIDAPI_KEY=your_api_key_here
+## Environment Variables
 
+This project uses environment variables for security.  
+Create a `.env` file in the project root using the `.env.example` file as a reference.
+
+1. Duplicate `.env.example` and rename it to `.env`
+2. Add your own RapidAPI key:
+
+REACT_APP_RAPID_API_KEY=your_api_key_here
+ESLINT_NO_DEV_ERRORS=true
+
+3. Never share your `.env` file or push it to GitHub
