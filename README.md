@@ -36,8 +36,9 @@ It provides an **easy-to-use interface** for fitness enthusiasts and uses **Rapi
 
 ## Install dependencies
 
- - npm install
-
+  npm install
+      (or)
+  npm install --force
 
 ## Environment Variables
 
