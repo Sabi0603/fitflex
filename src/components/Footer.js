@@ -11,7 +11,6 @@ const Footer = () => (
   <Box mt="80px" bgcolor="#FFF3F4" px="40px" py="40px">
     <Stack gap="20px" alignItems="center">
       <Typography fontSize="30px" fontWeight="600">PowerPulse</Typography>
-      
       {/* Contact Info */}
       <Stack direction="column" spacing={1} alignItems="center">
         <Typography>Email: <Link href="mailto:powerpulse@example.com" underline="hover">powerpulse@example.com</Link></Typography>
